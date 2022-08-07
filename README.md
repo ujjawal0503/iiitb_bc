@@ -1,2 +1,1 @@
-# iiitb_pc
-parity checker
+# iiitb_pc- Parity Checker
