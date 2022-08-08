@@ -40,6 +40,10 @@ VCD/EVCD files and allows their viewing<br />
 Open your terminal and type the following to install iverilog and GTKWave<br /> <br />
 
 
+## Function simulation
+To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+```
+
 
  
 
