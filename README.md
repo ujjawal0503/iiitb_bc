@@ -26,6 +26,21 @@ sequence(3,2,1,0) .Generally, most bidirectional counters can be made to change 
 incremented or decremented based on the CLK transition from low to high <br /> <br />
 ![image](https://user-images.githubusercontent.com/110776724/183384912-971b4888-eb70-46c9-8109-003f367d37f9.png)
 
+## About verilog
+Icarus Verilog is an implementation of the Verilog hardware description language
+<br />
+## About GTKWave
+GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog
+VCD/EVCD files and allows their viewing<br />
+
+## Installing iverilog and GTKWave
+
+### for ubuntu
+
+Open your terminal and type the following to install iverilog and GTKWave<br /> <br />
+
+
+
  
 
 
