@@ -1,4 +1,4 @@
-# iiitb_BC- Bidirectional up/down counter
+# iiitb_bc- Bidirectional up/down counter
 This project simulates the bidirectional up/down counter.We can generate
 an up or down counter using an external input 
 ## Introduction
