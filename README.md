@@ -42,7 +42,10 @@ VCD/EVCD files and allows their viewing<br />
 ### for ubuntu
 
 Open your terminal and type the following to install iverilog and GTKWave<br /> <br />
-
+```
+$   sudo apt-get update
+$   sudo apt-get install iverilog gtkwave
+```
 
 ## Function simulation
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
@@ -52,6 +55,28 @@ $ iverilog iiitb_bc.v iiitb_bc_tb.v
 $ ./a.out
 $ gtkwave iiitb_bc_out.vcd
 ```
+
+## Contributors 
+
+- **Ujjawal Sharma**
+- **Kunal Ghosh** 
+
+
+
+## Acknowledgments
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+## Contact Information
+
+- Ujjawal sharma, Postgraduate Student, International Institute of Information Technology, Bangalore ujjawal0503@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+## References:
+1.> https://verilogcodes.blogspot.com/2015/10/verilog-code-for-updown-counter-using.html <br />
+2.> https://www.electronics-tutorials.ws/counter/count_4.html#:~:text=Bidirectional%20counters%2C%20also%20known%20as,control%20input%20as%20shown
+
+
 
 
  
