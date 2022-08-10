@@ -25,6 +25,10 @@ When we use X = 0 our counter behaves as an up counter ,it advances in the seque
 sequence(3,2,1,0) .Generally, most bidirectional counters can be made to change their count Direction up or down at any point of time.This counter can be synchronously
 incremented or decremented based on the CLK transition from low to high <br /> <br />
 ![image](https://user-images.githubusercontent.com/110776724/183384912-971b4888-eb70-46c9-8109-003f367d37f9.png)
+<br/>
+## Pre Layout Simulation <br/>
+![pre_layout_simulation](https://user-images.githubusercontent.com/110776724/183904469-8b3e16d0-e636-4ec5-9570-389935914ac9.png)
+
 
 ## About verilog
 Icarus Verilog is an implementation of the Verilog hardware description language
