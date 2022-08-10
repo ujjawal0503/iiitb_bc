@@ -43,6 +43,11 @@ Open your terminal and type the following to install iverilog and GTKWave<br /> 
 ## Function simulation
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
 ```
+$ git clone https://github.com/ujjawal0503/iiitb_bc/
+$ iverilog iiitb_bc.v iiitb_bc_tb.v
+$ ./a.out
+$ gtkwave iiitb_bc_out.vcd
+```
 
 
  
