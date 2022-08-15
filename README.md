@@ -56,6 +56,20 @@ $ ./a.out
 $ gtkwave iiitb_bc_out.vcd
 ```
 
+## Post synthesis simulation <br />
+- Stats <br />
+
+![netlist](https://user-images.githubusercontent.com/110776724/184705228-6ae076e1-f1b2-48a5-b347-20168ce8531b.png)
+<br />
+<br />
+- This is how layout is looking at first glance before proper placement<br />
+
+![rtl_synth](https://user-images.githubusercontent.com/110776724/184705699-7ca8d39d-be8e-42ee-8579-e265add0d421.png)<br />
+- GTKWAVE simulation<br />
+
+![post_synth](https://user-images.githubusercontent.com/110776724/184706578-59b14ff8-9f0a-4e58-a6b4-40c3e2238d8e.png)
+
+
 ## Contributors 
 
 - **Ujjawal Sharma**
