@@ -85,6 +85,8 @@ Then, open terminal in the folder iiitb_gc and type the below command.
 ```
 yosys -s yosys_run.sh
 ```
+<br />
+On running the yosys script, we get the following output:
 
 - Stats <br />
 
