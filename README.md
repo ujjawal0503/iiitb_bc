@@ -96,8 +96,14 @@ On running the yosys script, we get the following output:
 - This is how layout is looking at first glance before proper placement<br />
 
 ![rtl_synth](https://user-images.githubusercontent.com/110776724/184705699-7ca8d39d-be8e-42ee-8579-e265add0d421.png)<br />
-- GTKWAVE simulation<br />
-
+## GATE level simulation<br />
+GLS stands for gate level simulation. When we write the RTL code, we test it by giving it some stimulus through the testbench and check it for the desired specifications. Similarly, we run the netlist as the design under test (dut) with the same testbench. Gate level simulation is done to verify the logical correctness of the design after synthesis. Also, it ensures the timing of the design.
+Commands to run the GLS are given below.<br />
+```
+iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 iiitb_bc_synth.v iiitb_bc_tb.v iiitb_bc/verilog_model/primitives.v /iiitb_bc/verilog_model/sky130_fd_sc_hd.v -iiitb_bc
+./iiitb_bc
+gtkwave iiitb_gc.vcd
+```
 ![post_synth](https://user-images.githubusercontent.com/110776724/184706578-59b14ff8-9f0a-4e58-a6b4-40c3e2238d8e.png)
 
 
