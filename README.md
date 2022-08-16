@@ -81,9 +81,11 @@ show
 <br />
 Then, open terminal in the folder iiitb_gc and type the below command.
 <br />
+
 ```
 yosys -s yosys_run.sh
 ```
+
 - Stats <br />
 
 ![netlist](https://user-images.githubusercontent.com/110776724/184705228-6ae076e1-f1b2-48a5-b347-20168ce8531b.png)
