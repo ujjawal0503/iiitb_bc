@@ -64,6 +64,26 @@ make
 sudo make install make test
 ```
 <br />
+
+The commands to run synthesis in yosys are given below. First create an yosys script yosys_run.sh and paste the below commands.
+```
+read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog iiitb_gc.v
+synth -top iiitb_gc	
+dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+clean
+flatten
+write_verilog -noattr iiitb_gc_synth.v
+stat
+show
+```
+<br />
+Then, open terminal in the folder iiitb_gc and type the below command.
+<br />
+```
+yosys -s yosys_run.sh
+```
 - Stats <br />
 
 ![netlist](https://user-images.githubusercontent.com/110776724/184705228-6ae076e1-f1b2-48a5-b347-20168ce8531b.png)
