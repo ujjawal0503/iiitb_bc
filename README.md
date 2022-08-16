@@ -102,7 +102,7 @@ Commands to run the GLS are given below.<br />
 ```
 iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 iiitb_bc_synth.v iiitb_bc_tb.v iiitb_bc/verilog_model/primitives.v /iiitb_bc/verilog_model/sky130_fd_sc_hd.v -iiitb_bc
 ./iiitb_bc
-gtkwave iiitb_gc.vcd
+gtkwave iiitb_bc.vcd
 ```
 ![post_synth](https://user-images.githubusercontent.com/110776724/184706578-59b14ff8-9f0a-4e58-a6b4-40c3e2238d8e.png)
 
