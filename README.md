@@ -112,6 +112,7 @@ Physical design is process of transforming netlist into layout which is manufact
 Below are the stages and the respective tools that are called by openlane for the functionalities as described:
 <br />
 ![physical design flow](https://user-images.githubusercontent.com/110462872/187619635-a5fdc45c-5c81-4d43-b22c-6cd182538c60.JPG)
+<br />
 
 ## Openlane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
