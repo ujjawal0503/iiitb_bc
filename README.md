@@ -119,6 +119,16 @@ OpenLane is an automated RTL to GDSII flow based on several components including
 
 more at https://github.com/The-OpenROAD-Project/OpenLane
 <br />
+
+
+
+
+#### Installation instructions 
+```
+$   apt install -y build-essential python3 python3-venv python3-pip
+```
+Docker installation process: https://docs.docker.com/engine/install/ubuntu/
+
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc (removes older version of docker if installed)
 $ sudo apt-get update
@@ -141,12 +151,6 @@ $ sudo docker run hello-world (If the docker is successfully installed u will ge
 
 ### Installation of OpenLane on ubuntu
 
-#### Installation instructions 
-```
-$   apt install -y build-essential python3 python3-venv python3-pip
-```
-Docker installation process: https://docs.docker.com/engine/install/ubuntu/
-
 goto home directory->
 ```
 $   git clone https://github.com/The-OpenROAD-Project/OpenLane.git
@@ -164,18 +168,40 @@ Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John
 
 More about magic at http://opencircuitdesign.com/magic/index.html
 
+For Magic to be installed and work properly the following softwares have to be installed first:
 Run following commands one by one to fulfill the system requirement.
 
+Installing csh
 ```
-$   sudo apt-get install m4
-$   sudo apt-get install tcsh
-$   sudo apt-get install csh
-$   sudo apt-get install libx11-dev
-$   sudo apt-get install tcl-dev tk-dev
-$   sudo apt-get install libcairo2-dev
-$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
-$   sudo apt-get install libncurses-dev
+$ sudo apt-get install csh
 ```
+Installing x11/xorg
+```
+$ sudo apt-get install x11
+```
+```
+$ sudo apt-get install xorg
+```
+```
+$ sudo apt-get install xorg openbox
+```
+Installing GCC
+```
+$ sudo apt-get install gcc
+```
+Installing build-essential
+```
+$ sudo apt-get install build-essential
+```
+Installing OpenGL
+```
+$ sudo apt-get install freeglut3-dev
+```
+Installing tcl/tk
+```
+$ sudo apt-get install tcl-dev tk-dev
+```
+
 **To install magic**
 goto home directory
 
@@ -187,6 +213,16 @@ $   sudo make
 $   sudo make install
 ```
 type **magic** terminal to check whether it installed succesfully or not. type **exit** to exit magic.
+
+Klayout Installation
+```
+$ sudo apt-get install klayout
+```
+ngspice Installation
+```
+$ sudo apt-get install ngspice
+```
+
 
 ## Openlane Results
 
