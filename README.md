@@ -159,6 +159,9 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 
 ## Openlane Results
 
+### Placement
+
+
 
 
 
@@ -166,6 +169,9 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 
 - **Ujjawal Sharma**
 - **Kunal Ghosh** 
+![magic1](https://user-images.githubusercontent.com/110776724/187661607-ca5cb876-d6ee-4569-b189-229998ba3a82.png)
+![magic2](https://user-images.githubusercontent.com/110776724/187661640-2f2d0342-fec6-4b9f-99ab-cb0ab33da100.png)
+![magic3](https://user-images.githubusercontent.com/110776724/187661657-55f8966f-5d17-4c9a-8ab0-2cbe3ac529e8.png)
 
 
 
