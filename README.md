@@ -223,6 +223,13 @@ ngspice Installation
 $ sudo apt-get install ngspice
 ```
 
+## Generating Layout
+###### Preparation
+The layout is generated using OpenLane. To run a custom design on openlane, Navigate to the openlane folder and run the following commands:
+
+Open terminal in home directory
+
+
 
 ## Openlane Results
 
