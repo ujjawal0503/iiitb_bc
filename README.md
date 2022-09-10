@@ -286,7 +286,10 @@ Save all the changes made above and Navigate to the openlane folder in terminal 
 ```
 $ make mount (if this command doesnot go through prefix it with sudo)
 ```
-![sm-make mount](https://user-images.githubusercontent.com/34582183/187881647-d856b78b-f4cc-4ef6-8c0f-33fc80be857c.png)
+x-special/nautilus-clipboard
+copy
+file:///home/ujjawal/Desktop/sudo%20mount.png
+
 
 
 After entering the openlane container give the following command:<br>
