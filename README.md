@@ -383,11 +383,8 @@ Floorplan view
 
 ## Placement
 <br/>
-
 **To run the Placement use the command:** 
-
 <br/>
-
 ```
 % run_placement
 ```
