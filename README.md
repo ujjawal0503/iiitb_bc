@@ -304,24 +304,117 @@ This command will take you into the tcl console. In the tcl console type the fol
 ```
 % package require openlane 0.9
 ```
+![openlane 0 9](https://user-images.githubusercontent.com/34582183/187881881-aabd0933-83e1-42d2-9887-ad7d854bcec3.png)
 
+<br>
+```
+% prep -design iiitb_bc
+```
+![prepdesign terminal](https://user-images.githubusercontent.com/110776724/189496689-c0a2050c-c8bd-413f-899c-a28c30141793.png)
 
-## Generating Layout
-###### Preparation
-The layout is generated using OpenLane. To run a custom design on openlane, Navigate to the openlane folder and run the following commands:
+The following commands are to merge external the lef files to the merged.nom.lef. In our case sky130_vsdiat is getting merged to the lef file <br>
+```
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+```
+![set lefs terminal](https://user-images.githubusercontent.com/110776724/189496805-f3da07c8-d1fb-43fe-ba4f-9467b1800a8d.png)
 
-Open terminal in home directory
+<br>
+<br>
+## Synthesis
+```
+% run_synthesis
+```
+![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189496888-7b0a87ef-939b-410c-bbb0-a78555c39d8b.png)
+<br>
 
+## Floorplan
+```
 
+% run_floorplan
+```
+![floorplan terminal](https://user-images.githubusercontent.com/110776724/189497116-04238626-a761-47fd-aca6-d4abb1147c3c.png)
+<br>
 
-## Openlane Results
+### Floorplan Reports
 
-### Placement
+Navigate to results->floorplan and type the Magic command in terminal to open the floorplan <br>
+```
+$ magic -T /home/ujjawal/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech read ../../tmp/merged.nom.lef def read iiitb_bc.def &
+```
+<br>
+Floorplan view
 
+![floorplan](https://user-images.githubusercontent.com/110776724/189497196-e1d37e9c-91f5-40d9-b06a-bfd3702c30fe.png)
+
+## Placement
 ```
 % run_placement
 ```
 
+![placement terminal](https://user-images.githubusercontent.com/110776724/189497250-c23f0293-cc3d-467f-925b-bd0209cc5845.png)
+
+### Placement Reports
+Navigate to results->placement and type the Magic command in terminal to open the placement view <br>
+```
+$ magic -T /home/ujjawal/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech read ../../tmp/merged.max.lef def read iiitb_bc.def &
+```
+<br>
+Placement View <br>
+<br>
+
+![placement](https://user-images.githubusercontent.com/110776724/189497297-2f66761b-9e1d-42df-a6d8-c2fd5cf81c8a.png)
+
+<br>
+<b>sky130_vsdinv</b> in the placement view :<br>
+<br>
+
+![vsdinv](https://user-images.githubusercontent.com/110776724/189497322-fb41cc80-1b69-4aac-b76e-d02c65673676.png)
+
+<br>
+<br>
+
+
+## Clock Tree Synthesis
+```
+% run_cts
+```
+![cts terminal](https://user-images.githubusercontent.com/110776724/189497375-e84d304e-a313-48ef-b697-3cf7181e48ee.png)
+
+## Routing
+```
+% run_routing
+```
+
+![routing terminal](https://user-images.githubusercontent.com/110776724/189497387-4732bcb4-b657-4c9c-a6c7-e18fcacc6b8f.png)
+
+### Routing Reports
+Navigate to results->routing and type the Magic command in terminal to open the routing view <br>
+```
+$ magic -T /home/ujjawal/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech read ../../tmp/merged.nom.lef def read iiitb_bc.def &
+```
+
+Routing View<br>
+<br>
+![routing](https://user-images.githubusercontent.com/110776724/189497452-cd5c0153-427d-4abc-9146-dff7d772aa71.png)
+
+### NOTE
+We can also run the whole flow at once instead of step by step process by giving the following command in openlane container<br>
+```
+$ ./flow.tcl -design iiitb_4bbc
+```
+<br>![non-interactive command](https://user-images.githubusercontent.com/34582183/187885803-ca195cac-b0aa-4416-921e-26031b77a9de.png)
+<br>
+All the steps will be automated and all the files will be generated.<br>
+
+
+
+
+
+
+
+
+    
 
 
 
