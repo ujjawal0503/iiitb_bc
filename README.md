@@ -325,9 +325,11 @@ The following commands are to merge external the lef files to the merged.nom.lef
 ```
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 add_lefs -src $lefs
-```
-![set lefs terminal](https://user-images.githubusercontent.com/110776724/189496805-f3da07c8-d1fb-43fe-ba4f-9467b1800a8d.png)
 
+```
+<br>
+![set lefs terminal](https://user-images.githubusercontent.com/110776724/189496805-f3da07c8-d1fb-43fe-ba4f-9467b1800a8d.png)
+<br>
 <br>
 <br>
 ## Synthesis
