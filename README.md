@@ -356,11 +356,13 @@ add_lefs -src $lefs
   
 ## Floorplan
 <br/>
+
 **To run the Floorplan use the command:**
 
 ```
 % run_floorplan
 ```
+
 <br/>
 ![floorplan terminal](https://user-images.githubusercontent.com/110776724/189497116-04238626-a761-47fd-aca6-d4abb1147c3c.png)
 <br>
