@@ -302,6 +302,10 @@ $ ./flow.tcl -interactive
 This command will take you into the tcl console. In the tcl console type the following commands:<br>
 
 
+```
+ % package require openlane 0.9
+ 
+```
 
 
 <br>
@@ -311,15 +315,10 @@ This command will take you into the tcl console. In the tcl console type the fol
 <br>
 
 ```
- % package require openlane 0.9
- 
+% prep -design iiitb_bc
 ```
 <br>
-% prep -design iiitb_bv
-<br>
 
-![prepdesign terminal](https://user-images.githubusercontent.com/110776724/189498284-12348617-472a-466f-8b08-5b787ff35cec.png)
-<br>
 
 The following commands are to merge external the lef files to the merged.nom.lef. In our case sky130_vsdiat is getting merged to the lef file <br>
 ```
