@@ -312,6 +312,7 @@ This command will take you into the tcl console. In the tcl console type the fol
 ```
 % prep -design iiitb_bc
 ```
+
 <br>
 ![prepdesign terminal](https://user-images.githubusercontent.com/110776724/189496689-c0a2050c-c8bd-413f-899c-a28c30141793.png)
 <br>
