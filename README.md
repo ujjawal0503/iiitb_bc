@@ -303,19 +303,15 @@ This command will take you into the tcl console. In the tcl console type the fol
 
 ```
  % package require openlane 0.9
- 
 ```
 <br>
-
 ![openlane 0 9](https://user-images.githubusercontent.com/34582183/187881881-aabd0933-83e1-42d2-9887-ad7d854bcec3.png)
-
 <br>
 
 ```
 % prep -design iiitb_bc
 ```
 <br>
-
 
 The following commands are to merge external the lef files to the merged.nom.lef. In our case sky130_vsdiat is getting merged to the lef file <br>
 ```
