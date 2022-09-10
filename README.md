@@ -218,10 +218,90 @@ Klayout Installation
 ```
 $ sudo apt-get install klayout
 ```
-ngspice Installation
+
+# Layout
+
+## Preparation
+The layout is generated using OpenLane. To run a custom design on openlane, Navigate to the openlane folder and run the following commands:<br>
 ```
-$ sudo apt-get install ngspice
+$ cd designs
+
+$ mkdir iiitb_bc
+
+$ cd iiitb_bc
+
+$ mkdir src
+
+$ touch config.json
+
+$ cd src
+
+$ touch iiitb_bc.v
 ```
+
+The iiitb_bc.v file should contain the verilog RTL code you have used and got the post synthesis simulation for. <br>
+
+Copy  `sky130_fd_sc_hd__fast.lib`, `sky130_fd_sc_hd__slow.lib`, `sky130_fd_sc_hd__typical.lib` and `sky130_vsdinv.lef` files to `src` folder in your design. <br>
+
+The final src folder should look like this: <br>
+
+
+<br>
+
+The contents of the config.json are as follows. this can be modified specifically for your design as and when required. <br>
+
+As mentioned by kunal sir dont use defined `DIE_AREA` and `FP_SIZING : absolute`, use `FP_SIZING : relative`
+```
+{
+    "DESIGN_NAME": "iiitb_bc",
+    "VERILOG_FILES": "dir::src/iiitb_bc.v",
+    "CLOCK_PORT": "clkin",
+    "CLOCK_NET": "clkin",
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": true,
+    "CLOCK_PERIOD": 10,
+    "PL_TARGET_DENSITY": 0.7,
+    "FP_SIZING" : "relative",
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 30,
+        "scl::sky130_fd_sc_hd": {
+            "FP_CORE_UTIL": 20
+        }
+    },
+    
+    "LIB_SYNTH": "dir::src/sky130_fd_sc_hd__typical.lib",
+    "LIB_FASTEST": "dir::src/sky130_fd_sc_hd__fast.lib",
+    "LIB_SLOWEST": "dir::src/sky130_fd_sc_hd__slow.lib",
+    "LIB_TYPICAL": "dir::src/sky130_fd_sc_hd__typical.lib",  
+    "TEST_EXTERNAL_GLOB": "dir::../iiitb_bc/src/*"
+
+
+}
+```
+
+
+
+Save all the changes made above and Navigate to the openlane folder in terminal and give the following command :<br>
+
+
+```
+$ make mount (if this command doesnot go through prefix it with sudo)
+```
+![sm-make mount](https://user-images.githubusercontent.com/34582183/187881647-d856b78b-f4cc-4ef6-8c0f-33fc80be857c.png)
+
+
+After entering the openlane container give the following command:<br>
+```
+$ ./flow.tcl -interactive
+```
+![tcl](https://user-images.githubusercontent.com/34582183/187881816-c1577234-597b-4231-8d20-8201357022ad.png)
+
+
+This command will take you into the tcl console. In the tcl console type the following commands:<br>
+
+```
+% package require openlane 0.9
+```
+
 
 ## Generating Layout
 ###### Preparation
