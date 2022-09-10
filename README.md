@@ -330,13 +330,14 @@ add_lefs -src $lefs
 
 <br>
 <br>
-## Synthesis
+## Synthesis <br>
 <br>
 ```
 % run_synthesis
 ```
 <br>
-<br>![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189496888-7b0a87ef-939b-410c-bbb0-a78555c39d8b.png)
+![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189498859-d3b667c5-6777-462f-84c7-0477a106d34e.png)
+
 <br>
 
 ## Floorplan
