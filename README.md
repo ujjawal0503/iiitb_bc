@@ -341,6 +341,11 @@ add_lefs -src $lefs
 
 <br/>
 
+**2. The synthesized netlist** is present in the results folder and the stats are present in the reports folder
+
+![stats](https://user-images.githubusercontent.com/110776724/189500715-e6b3e52b-3327-41b7-9080-0d9b976bae10.png)
+
+
 **Calcuation of Flop Ratio:**
   
 <br/>
