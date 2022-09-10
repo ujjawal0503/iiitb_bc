@@ -318,6 +318,11 @@ Open terminal in home directory
 
 ### Placement
 
+```
+% run_placement
+```
+
+
 
 
 
