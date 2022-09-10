@@ -286,9 +286,9 @@ Save all the changes made above and Navigate to the openlane folder in terminal 
 ```
 $ make mount (if this command doesnot go through prefix it with sudo)
 ```
-x-special/nautilus-clipboard
-copy
-file:///home/ujjawal/Desktop/sudo%20mount.png
+
+![sudo mount](https://user-images.githubusercontent.com/110776724/189496341-bfb60237-7803-4f1d-b8ba-02b8ed131fe1.png)
+
 
 
 
