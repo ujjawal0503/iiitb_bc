@@ -382,6 +382,9 @@ Floorplan view
 ![floorplan](https://user-images.githubusercontent.com/110776724/189497196-e1d37e9c-91f5-40d9-b06a-bfd3702c30fe.png)
 
 ## Placement
+<br>
+**To run the Placement use the command:** 
+<br/>
 ```
 % run_placement
 ```
