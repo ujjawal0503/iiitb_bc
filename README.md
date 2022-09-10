@@ -416,6 +416,12 @@ Placement View <br>
 
 
 ## Clock Tree Synthesis
+<br/>
+
+**2. To run CTS use the below command:**
+
+<br/>
+
 ```
 % run_cts
 ```
