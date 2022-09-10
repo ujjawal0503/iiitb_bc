@@ -344,15 +344,15 @@ add_lefs -src $lefs
 
 **Calcuation of Flop Ratio:**
   
-<br/>  
-  ```
-  
-    Flop ratio = Number of D Flip flops 
-                 ______________________
-                 Total Number of cells
-  
-  ```
-  <br/>
+<br/>
+
+ ``` 
+ Flop ratio = Number of D Flip flops 
+              ______________________
+              Total Number of cells 
+ ```
+ 
+ <br/>
   
 ## Floorplan
 <br/>
