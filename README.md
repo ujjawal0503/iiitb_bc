@@ -332,9 +332,11 @@ add_lefs -src $lefs
 <br>
 ## Synthesis <br>
 <br>
+
 ```
-% run_synthesis
+%  run_synthesis
 ```
+
 <br>
 ![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189498859-d3b667c5-6777-462f-84c7-0477a106d34e.png)
 
