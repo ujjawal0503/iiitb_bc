@@ -390,6 +390,10 @@ Floorplan view
 
 ![diearea](https://user-images.githubusercontent.com/110776724/189500793-318f2cf2-5f1b-430c-a481-197a647ed3f4.png)
 
+**Core Area post floorplan:**
+
+![corearea](https://user-images.githubusercontent.com/110776724/189501018-2c84ad61-50f3-456d-9afd-8e86a1b4e888.png)
+
 
 ## Placement
 
@@ -421,7 +425,7 @@ Placement View <br>
 <br>
 <br>
 
-**6. Area report post placement_resizing:**
+**Area report post placement_resizing:**
 
 ![designarea](https://user-images.githubusercontent.com/110776724/189500930-1089000c-a2e7-4d74-bbf1-3af4510b52c1.png)
 
