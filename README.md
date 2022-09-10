@@ -341,8 +341,10 @@ add_lefs -src $lefs
 ![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189499086-eb2fc781-3fcc-4843-ad8f-01105f565f26.png)
 
 <br/>
-**3. Calcuation of Flop Ratio:**
+
+**Calcuation of Flop Ratio:**
   
+<br/>  
   ```
   
     Flop ratio = Number of D Flip flops 
@@ -354,11 +356,12 @@ add_lefs -src $lefs
   
 ## Floorplan
 <br/>
-* **3. To run the Floorplan use the command:** 
-```
+**To run the Floorplan use the command:**
 
+```
 % run_floorplan
 ```
+<br/>
 ![floorplan terminal](https://user-images.githubusercontent.com/110776724/189497116-04238626-a761-47fd-aca6-d4abb1147c3c.png)
 <br>
 
