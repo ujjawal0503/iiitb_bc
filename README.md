@@ -331,6 +331,7 @@ add_lefs -src $lefs
 <br>
 <br>
 ## Synthesis
+<br>
 ```
 % run_synthesis
 ```
