@@ -326,9 +326,8 @@ set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 add_lefs -src $lefs
 
 ```
-<br>
-![set lefs terminal](https://user-images.githubusercontent.com/110776724/189496805-f3da07c8-d1fb-43fe-ba4f-9467b1800a8d.png)
-<br>
+![set lefs terminal](https://user-images.githubusercontent.com/110776724/189498636-a3d41271-671c-4218-8a49-46c24c11e0a3.png)
+
 <br>
 <br>
 ## Synthesis
