@@ -329,8 +329,10 @@ add_lefs -src $lefs
 ![set lefs terminal](https://user-images.githubusercontent.com/110776724/189498636-a3d41271-671c-4218-8a49-46c24c11e0a3.png)
 
 <br>
-<br>
+<br/>
+
 ### Synthesis
+
 <br/>
 
 ```
@@ -338,7 +340,8 @@ add_lefs -src $lefs
 ```
 
 <br/>
-![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189498859-d3b667c5-6777-462f-84c7-0477a106d34e.png)
+
+![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189499086-eb2fc781-3fcc-4843-ad8f-01105f565f26.png)
 
 <br/>
 
