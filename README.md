@@ -315,7 +315,8 @@ This command will take you into the tcl console. In the tcl console type the fol
  
 ```
 <br>
-
+![design prep](https://user-images.githubusercontent.com/34582183/187881960-eed36cd7-9fbd-4e0b-8103-ebaed97f8f06.png)
+<br>
 
 The following commands are to merge external the lef files to the merged.nom.lef. In our case sky130_vsdiat is getting merged to the lef file <br>
 ```
