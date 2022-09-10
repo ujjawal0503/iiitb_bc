@@ -346,7 +346,7 @@ add_lefs -src $lefs
 ![stats](https://user-images.githubusercontent.com/110776724/189500715-e6b3e52b-3327-41b7-9080-0d9b976bae10.png)
 
 
-**Calcuation of Flop Ratio:**
+**3. Calcuation of Flop Ratio:**
   
 <br/>
 
@@ -385,6 +385,12 @@ Floorplan view
 
 ![floorplan](https://user-images.githubusercontent.com/110776724/189497196-e1d37e9c-91f5-40d9-b06a-bfd3702c30fe.png)
 
+
+**Die Area post floorplan:**
+
+![diearea](https://user-images.githubusercontent.com/110776724/189500793-318f2cf2-5f1b-430c-a481-197a647ed3f4.png)
+
+
 ## Placement
 
 **To run the Placement use the command:** 
@@ -414,6 +420,10 @@ Placement View <br>
 
 <br>
 <br>
+
+**6. Area report post placement_resizing:**
+
+![designarea](https://user-images.githubusercontent.com/110776724/189500930-1089000c-a2e7-4d74-bbf1-3af4510b52c1.png)
 
 
 ## Clock Tree Synthesis
