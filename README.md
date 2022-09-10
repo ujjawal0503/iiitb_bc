@@ -362,10 +362,13 @@ add_lefs -src $lefs
 ```
 % run_floorplan
 ```
+
 <br/>
+
 ![floorplan terminal](https://user-images.githubusercontent.com/110776724/189500204-3364699f-9a10-422e-a065-2504412d132b.png)
 
 <br>
+
 
 ### Floorplan Reports
 
