@@ -281,7 +281,8 @@ As mentioned by kunal sir dont use defined `DIE_AREA` and `FP_SIZING : absolute`
 
 
 Save all the changes made above and Navigate to the openlane folder in terminal and give the following command :<br>
-
+**1. Running openlane in interactive mode:**
+        The commands to the run the flow in interactive mode is given below:
 
 ```
 $ make mount (if this command doesnot go through prefix it with sudo)
@@ -309,7 +310,9 @@ This command will take you into the tcl console. In the tcl console type the fol
 ![openlane 0 9](https://user-images.githubusercontent.com/34582183/187881881-aabd0933-83e1-42d2-9887-ad7d854bcec3.png)
 
 <br>
-
+**2. Preparing the design and including the lef files:**
+      The commands to prepare the design and the reports and results along with the command to include the lef files is given below:
+      
 ```
 % prep -design iiitb_bc
 ```
@@ -327,6 +330,7 @@ add_lefs -src $lefs
 <br/>
 
 ## Synthesis
+**1. The command to run the synthesis** is ```run_synthesis```.This runs the synthesis where yosys translates RTL into circuit using generic components and abc maps the circuit to Standard Cells.
 <br/>
 
 ```
@@ -337,8 +341,20 @@ add_lefs -src $lefs
 ![step1synthesis terminal](https://user-images.githubusercontent.com/110776724/189499086-eb2fc781-3fcc-4843-ad8f-01105f565f26.png)
 
 <br/>
-
+**3. Calcuation of Flop Ratio:**
+  
+  ```
+  
+    Flop ratio = Number of D Flip flops 
+                 ______________________
+                 Total Number of cells
+  
+  ```
+  <br/>
+  
 ## Floorplan
+<br/>
+* **3. To run the Floorplan use the command:** 
 ```
 
 % run_floorplan
