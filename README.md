@@ -473,21 +473,25 @@ All the steps will be automated and all the files will be generated.<br>
 ![stats exam with terminal](https://user-images.githubusercontent.com/110776724/192646991-7277bc25-7450-49a1-a1e4-d738edc9b4a7.png)
 <br />
 Total Gate Count = 24
+<br />
 
 ### 2.Area
 ![area with terminal exam](https://user-images.githubusercontent.com/110776724/192647427-0c9ed4a1-9558-4493-89df-fe37a0a7f2f8.png)
 <br />
 Area = 7008um^2
+<br />
 
 ### 3.Perfomance
 ![slack exam](https://user-images.githubusercontent.com/110776724/192647745-73ba6183-b414-46c5-a4c7-699267b87d80.png)
 <br />
 Perfomance = 1/(65-51.26) =72.78MHz
+<br />
 
 ### 4.Flop To Standard Cell ratio
 ![stats exam with terminal](https://user-images.githubusercontent.com/110776724/192648537-14f1d34b-1277-4f89-aba6-b684f3f46dbc.png)
 <br />
 Flop Ratio = 4/24 =.16
+<br />
 
 ### Power
 ![power weith terminal](https://user-images.githubusercontent.com/110776724/192649718-20f9f9bf-2672-48fc-b78f-09d07470fa57.png)
