@@ -480,11 +480,13 @@ Total Gate Count = 24
 <br />
 Area = 7008um^2
 <br />
+<br />
 
 ### 3.Perfomance
 ![slack exam](https://user-images.githubusercontent.com/110776724/192647745-73ba6183-b414-46c5-a4c7-699267b87d80.png)
 <br />
 Perfomance = 1/(65-51.26) =72.78MHz
+<br />
 <br />
 
 ### 4.Flop To Standard Cell ratio
@@ -492,14 +494,15 @@ Perfomance = 1/(65-51.26) =72.78MHz
 <br />
 Flop Ratio = 4/24 =.16
 <br />
+<br />
 
 ### Power
 ![power weith terminal](https://user-images.githubusercontent.com/110776724/192649718-20f9f9bf-2672-48fc-b78f-09d07470fa57.png)
 <br />
-Internal power = .659 uW (53.2%)
-Switching power = .579 uW (46.8%)
-Leakage Power = .271 nW (0.0%)
-Total Power = 1.24 uW (100 %)
+Internal power = .659 uW (53.2%) <br />
+Switching power = .579 uW (46.8%) <br />
+Leakage Power = .271 nW (0.0%) <br />
+Total Power = 1.24 uW (100 %) <br />
 
 
 
