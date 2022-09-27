@@ -496,7 +496,7 @@ Flop Ratio = 4/24 =.16
 <br />
 <br />
 
-### Power
+### 5.Power
 ![power weith terminal](https://user-images.githubusercontent.com/110776724/192649718-20f9f9bf-2672-48fc-b78f-09d07470fa57.png)
 <br />
 Internal power = .659 uW (53.2%) <br />
