@@ -74,12 +74,12 @@ dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 clean
 flatten
-write_verilog -noattr iiitb_gc_synth.v
+write_verilog -noattr iiitb_bc_synth.v
 stat
 show
 ```
 <br />
-Then, open terminal in the folder iiitb_gc and type the below command.
+Then, open terminal in the folder iiitb_bc and type the below command.
 <br />
 
 ```
@@ -101,7 +101,7 @@ GLS stands for gate level simulation. When we write the RTL code, we test it by 
 Commands to run the GLS are given below.<br />
 ```
 iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 iiitb_bc_synth.v iiitb_bc_tb.v iiitb_bc/verilog_model/primitives.v /iiitb_bc/verilog_model/sky130_fd_sc_hd.v -iiitb_bc
-./iiitb_bc
+./a.out
 gtkwave iiitb_bc.vcd
 ```
 ![post_synth](https://user-images.githubusercontent.com/110776724/184706578-59b14ff8-9f0a-4e58-a6b4-40c3e2238d8e.png)<br />
